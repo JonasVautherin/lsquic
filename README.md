@@ -107,7 +107,7 @@ make
 As a dynamic library:
 
 ```
-cmake -DAS_SHARED_LIB=true .
+cmake -DLSQUIC_SHARED_LIB=1 -DBORINGSSL_DIR=$BORINGSSL .
 make
 ```
 
